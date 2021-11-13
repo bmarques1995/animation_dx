@@ -1,0 +1,5 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+vendor/bin/premake/linux/premake5 filter=lfs diff=lfs merge=lfs -text
+vendor/bin/premake/mac/premake5 filter=lfs diff=lfs merge=lfs -text
+vendor/bin/premake/macos/premake5 filter=lfs diff=lfs merge=lfs -text
+vendor/bin/premake/windows/premake5.exe filter=lfs diff=lfs merge=lfs -text
